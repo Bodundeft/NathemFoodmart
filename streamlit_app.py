@@ -93,7 +93,7 @@ def Progressbar():
     if percent>100:
         st.subheader("Target done !")
     else:
-     st.write("you have ",percent, "% " ,"of ", (format(target, 'd')), "USD")
+     st.write("you have ",percent, "% " ,"of ", (format(target, 'd')), "NGN")
      mybar.progress(percent,text=" Target Percentage")
 with coll1:
  st.subheader("Target Percentage")
